@@ -1,0 +1,146 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+    margin: 3px;
+}
+
+h6 {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.white_area {
+    background-color: #F5F5F5;
+}
+
+.cover {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 1110px;
+    height: 646px;
+    border-radius: 30px;
+    padding: 2% 4% 0 6%;
+}
+
+.cover_left {
+    width: 50%;
+}
+
+.button_style {
+    background-color: red;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 35px;
+
+}
+
+.marcelo {
+    width: 564px;
+    height: 613px;
+}
+
+.article_flex {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 50px;
+}
+
+.remove {
+    text-decoration: none;
+    color: black;
+}
+
+.news_article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 10px;
+
+}
+
+.link_another {
+    height: 250px;
+    width: 312px;
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+#transfer {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 7px 20px;
+    border-radius: 5px;
+}
+
+.awsome {
+    display: flex;
+}
+
+.font_awsome {
+    margin-right: 15px;
+}
+
+
+.link_gap {
+    margin-bottom: 40px;
+}
+
+.background_white {
+    background-color: #FFFFFF;
+    color: #000;
+}
+
+.individual_news img {
+    margin-bottom: 15px;
+}
+
+.bottom {
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    color: #ffff;
+}
+
+#goal {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+#horizontal {
+    width: 1320px;
+    height: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.footer_each {
+    margin-right: 20px;
+}
